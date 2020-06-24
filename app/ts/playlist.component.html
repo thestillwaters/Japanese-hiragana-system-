@@ -1,0 +1,57 @@
+<!-- <h2 >My playlist will display here</h2>
+ -->
+
+ <table class="table table-hover" border='1px solid black'>
+ 	<thead>
+ 		<tr>
+ 			<td>ID</td>
+ 			<td>Name</td>
+ 			<td>Writing</td>
+ 			<td>Origin</td>
+ 			<td>ID</td>
+ 			<td>Name</td>
+ 			<td>Writing</td>
+ 			<td>Origin</td>
+ 			<td>ID</td>
+ 			<td>Name</td>
+ 			<td>Writing</td>
+ 			<td>Origin</td>
+ 			<td>ID</td>
+ 			<td>Name</td>
+ 			<td>Writing</td>
+ 			<td>Origin</td>
+ 			<td>ID</td>
+ 			<td>Name</td>
+ 			<td>Writing</td>
+ 			<td>Origin</td>
+ 		</tr>
+ 	</thead>
+<!--  	<tbody> -->
+ 		<tr  *ngFor="#v of tableRows" >
+ 			<td>{{v.id}}</td>
+ 			<td><a (click)="playAudio()">{{v.jpPro}}</a></td>
+ 			<td>{{v.jp}}</td>
+ 			<td>{{v.cn}}</td>
+
+ 			<td>{{v.id1}}</td>
+ 			<td><a href="{{v.link1}}">{{v.jpPro1}}</a></td>
+ 			<td>{{v.jp1}}</td>
+ 			<td>{{v.cn1}}</td>
+
+ 			<td>{{v.id2}}</td>
+ 			<td>{{v.jpPro2}}</td>
+ 			<td>{{v.jp2}}</td>
+ 			<td>{{v.cn2}}</td>
+
+ 			<td>{{v.id3}}</td>
+ 			<td>{{v.jpPro3}}</td>
+ 			<td>{{v.jp3}}</td>
+ 			<td>{{v.cn3}}</td>
+
+ 			<td>{{v.id4}}</td>
+ 			<td>{{v.jpPro4}}</td>
+ 			<td>{{v.jp4}}</td>
+ 			<td>{{v.cn4}}</td>
+ 		</tr>
+ 	<!-- </tboby> -->
+ </table>
