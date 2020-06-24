@@ -1,2 +1,2 @@
-# Japanese-hiragana-system-
-A simple Japanese hiragana system comparison table with pronunciation, Chinese Regular and Cursive scripts..
+# Japanese-hiragana-system
+A simple Japanese hiragana system comparison table with the characters, pronunciation, Chinese Regular oringin..
