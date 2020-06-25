@@ -1,5 +1,7 @@
 ![Test Image 1](https://omniglot.com/images/writing/hiragana.gif)
 
+The photo link: https://omniglot.com/writing/japanese_hiragana.htm
+
 This program is a simple webpage about Japanese hiragana system comparison table with pronunciation, Chinese Regular and Cursive scripts.  
 
 It based on the template for Angular 9 followed the Newboston youtube. It contains the core files you will need when starting an Angular 9 project.
