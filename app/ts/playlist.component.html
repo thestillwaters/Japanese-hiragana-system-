@@ -5,23 +5,23 @@
  	<thead>
  		<tr>
  			<td>ID</td>
- 			<td>Name</td>
+ 			<td>Sound</td>
  			<td>Writing</td>
  			<td>Origin</td>
  			<td>ID</td>
- 			<td>Name</td>
+ 			<td>Sound</td>
  			<td>Writing</td>
  			<td>Origin</td>
  			<td>ID</td>
- 			<td>Name</td>
+ 			<td>Sound</td>
  			<td>Writing</td>
  			<td>Origin</td>
  			<td>ID</td>
- 			<td>Name</td>
+ 			<td>Sound</td>
  			<td>Writing</td>
  			<td>Origin</td>
  			<td>ID</td>
- 			<td>Name</td>
+ 			<td>Sound</td>
  			<td>Writing</td>
  			<td>Origin</td>
  		</tr>
@@ -29,27 +29,28 @@
 <!--  	<tbody> -->
  		<tr  *ngFor="#v of tableRows" >
  			<td>{{v.id}}</td>
- 			<td><a (click)="playAudio()">{{v.jpPro}}</a></td>
+ 			<!-- play sound after click -->
+ 			<td><a (click)="playAudio(v.link)">{{v.jpPro}}</a></td>
  			<td>{{v.jp}}</td>
  			<td>{{v.cn}}</td>
 
  			<td>{{v.id1}}</td>
- 			<td><a href="{{v.link1}}">{{v.jpPro1}}</a></td>
+ 			<td><a (click)="playAudio(v.link1)">{{v.jpPro1}}</a></td>
  			<td>{{v.jp1}}</td>
  			<td>{{v.cn1}}</td>
 
  			<td>{{v.id2}}</td>
- 			<td>{{v.jpPro2}}</td>
+ 			<td><a (click)="playAudio(v.link2)">{{v.jpPro2}}</a></td>
  			<td>{{v.jp2}}</td>
  			<td>{{v.cn2}}</td>
 
  			<td>{{v.id3}}</td>
- 			<td>{{v.jpPro3}}</td>
+ 			<td><a (click)="playAudio(v.link3)">{{v.jpPro3}}</a></td>
  			<td>{{v.jp3}}</td>
  			<td>{{v.cn3}}</td>
 
  			<td>{{v.id4}}</td>
- 			<td>{{v.jpPro4}}</td>
+ 			<td><a (click)="playAudio(v.link4)">{{v.jpPro4}}</a></td>
  			<td>{{v.jp4}}</td>
  			<td>{{v.cn4}}</td>
  		</tr>

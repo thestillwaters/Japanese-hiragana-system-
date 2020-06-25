@@ -34,13 +34,6 @@ System.register([], function(exports_1, context_1) {
                     this.jp4 = jp4;
                     this.cn4 = cn4;
                 }
-                TableRow.prototype.playAudio = function () {
-                    var audio = new Audio();
-                    audio.src = this.link;
-                    audio.load();
-                    audio.play();
-                    this.playAudio();
-                };
                 return TableRow;
             }());
             exports_1("TableRow", TableRow);

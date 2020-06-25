@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {Video} from './video';
+import {TableRows} from './video';
 
 @Component({
     selector: 'playlist',
@@ -12,4 +12,13 @@ export class Playlist{
 	onSelect(vid:TableRows){
 		console.log(JSON.stringify(vid));
 	}
+	//pass link a parameter and play sound after click
+	playAudio(link:string){
+      let audio = new Audio();
+      audio.src = link;
+      audio.load();
+      audio.play();
+      //vid.playAudio();
+    }
+
 }

@@ -24,6 +24,14 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 Playlist.prototype.onSelect = function (vid) {
                     console.log(JSON.stringify(vid));
                 };
+                //pass link a parameter and play sound after click
+                Playlist.prototype.playAudio = function (link) {
+                    var audio = new Audio();
+                    audio.src = link;
+                    audio.load();
+                    audio.play();
+                    //vid.playAudio();
+                };
                 Playlist = __decorate([
                     core_1.Component({
                         selector: 'playlist',

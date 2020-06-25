@@ -38,12 +38,8 @@ export class TableRow{
 		this.jpPro4 = jpPro4;
 		this.jp4 = jp4;
 		this.cn4 = cn4;
+
+
 	}
-	playAudio(){
-      let audio = new Audio();
-      audio.src = this.link;
-      audio.load();
-      audio.play();
-      this.playAudio();
-    }
+
 }
