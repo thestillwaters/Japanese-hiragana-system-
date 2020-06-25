@@ -1,4 +1,4 @@
-https://omniglot.com/images/writing/hiragana.gif
+![Test Image 1](https://omniglot.com/images/writing/hiragana.gif)
 
 This program is a simple webpage about Japanese hiragana system comparison table with pronunciation, Chinese Regular and Cursive scripts.  
 
